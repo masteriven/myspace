@@ -1,0 +1,133 @@
+body{
+  background-color: white;
+}
+
+header .menu {
+	height: 200px;
+	margin: 0 auto;
+	padding: 10px 100px;
+}
+header .menu{
+  height: 200px;
+  margin: 0 auto;
+
+}
+
+header  .menu .logo{
+  display: inline-block;
+  float: left;
+  padding-top: 20px;
+}
+
+header  .menu ul li{
+  display: inline-block;
+  float: left;
+  padding-left: 70px;
+  padding-top: 30px;
+}
+
+header  .menu ul li i{
+  font-size: 40px;
+  color:black;
+}
+
+header .menu ul li .fa-image{
+  color:blue;
+}
+
+header  .menu .profile-image{
+  display: inline-block;
+  float: left;
+  padding-left: 55px;
+
+}
+
+.col-3{
+ padding: 0px;
+}
+#page-layout{
+  height: 850px;
+}
+
+#page-layout .side-bar{
+  width: 400px;
+}
+
+#page-layout .side-bar a{
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+#page-layout .images-sources{
+  padding-top: 20px;
+  height: 800px;
+  width: 100%;
+  text-align: center;
+  background-color: #f2f2f2;
+
+}
+
+#page-layout .images-sources .fa-youtube{
+  color:red;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 50px;
+
+
+}
+#page-layout .images-sources .fa-facebook-square{
+  color:blue;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 50px;
+}
+
+#page-layout .images-sources .fa-vimeo{
+  color:#52c1ec;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 50px;
+}
+
+#page-layout .images-sources form input{
+}
+
+#page-layout .images-sources .image-preview-container{
+  margin-top: 80px;
+}
+
+#page-layout .images-sources .image-preview-container .x{
+  width: 1500px;
+  margin: 0 auto;
+  height: 1000px;
+}
+
+#page-layout .images-sources .image-preview-container .image-container{
+  width: 25%;
+  padding-bottom: 70px;
+  float: left;
+}
+
+#page-layout .images-sources .image-preview-container .image-container .deleteButton{
+  position: relative;
+  top:-80px;
+}
+
+
+/****Responsive****/
+
+@media(max-width:1000px){
+
+  #page-layout .images-sources {
+	padding-top: 20px;
+	height: 2500px;
+	width: 100%;
+	text-align: center;
+	background-color: #f2f2f2;
+}
+  #page-layout .images-sources .image-preview-container .image-container {
+	width: 25%;
+	padding-bottom: 70px;
+	float: none;
+}
+}

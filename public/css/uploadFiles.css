@@ -1,0 +1,157 @@
+body{
+  background-color: white;
+}
+
+header .menu {
+	height: 200px;
+	margin: 0 auto;
+	padding: 10px 100px;
+}
+header .menu{
+  height: 200px;
+  margin: 0 auto;
+
+}
+
+header  .menu .logo{
+  display: inline-block;
+  float: left;
+  padding-top: 20px;
+}
+
+header  .menu ul li{
+  display: inline-block;
+  float: left;
+  padding-left: 70px;
+  padding-top: 30px;
+}
+
+header  .menu ul li i{
+  font-size: 40px;
+  color:black;
+}
+
+header .menu ul li .fa-file{
+  color:blue;
+}
+
+header  .menu .profile-image{
+  display: inline-block;
+  float: left;
+  padding-left: 55px;
+
+}
+
+.col-3{
+ padding: 0px;
+}
+#page-layout{
+  height: 850px;
+}
+
+#page-layout .side-bar{
+  width: 400px;
+}
+
+#page-layout .side-bar a{
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+#page-layout .file-sources{
+  padding-top: 20px;
+  height: 800px;
+  width: 100%;
+  text-align: center;
+  background-color: #f2f2f2;
+
+}
+
+#page-layout .file-sources .fa-youtube{
+  color:red;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 50px;
+
+
+}
+#page-layout .file-sources .fa-facebook-square{
+  color:blue;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 50px;
+}
+
+#page-layout .file-sources .fa-vimeo{
+  color:#52c1ec;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 50px;
+}
+
+#page-layout .file-sources form input{
+}
+
+#page-layout .file-sources .image-preview-container{
+  margin-top: 80px;
+}
+
+#page-layout .file-sources .image-preview-container .x{
+  width: 1500px;
+  margin: 0 auto;
+  height: 1000px;
+}
+
+#page-layout .file-sources .image-preview-container .image-container{
+  width: 25%;
+  padding-bottom: 70px;
+  float: left;
+}
+
+#page-layout .file-sources .image-preview-container .image-container .deleteButton{
+  position: relative;
+  top:-80px;
+}
+
+#page-layout .file-sources .image-preview-container .x{
+  width: 25%;
+  height: 350px;
+  float: left;
+  display: block;
+}
+
+#page-layout .file-sources .upload_container{
+  margin-bottom: 60px;
+}
+
+#page-layout .file-sources .image-preview-container .x span{
+  font-size: 15px;
+  text-align: left;
+}
+
+
+#page-layout .file-sources .image-preview-container .x .downloadLinks .fa-file{
+  font-size: 60px;
+}
+
+/*//// responsive*******/
+
+@media(max-width:1000px){
+
+  #page-layout .file-sources {
+	padding-top: 20px;
+	height: 1800px;
+	width: 100%;
+	text-align: center;
+	background-color: #f2f2f2;
+}
+
+  #page-layout .file-sources .image-preview-container .x {
+  	width: 25%;
+  	height: 200px;
+  	float: none;
+  	display: block;
+  }
+}
+
+/*///////////////////

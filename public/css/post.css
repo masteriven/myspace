@@ -1,0 +1,116 @@
+body{
+  background-color: white;
+}
+
+header .menu {
+	height: 200px;
+	margin: 0 auto;
+	padding: 10px 100px;
+}
+
+header .menu{
+  height: 200px;
+  margin: 0 auto;
+
+}
+
+header  .menu .logo{
+  display: inline-block;
+  float: left;
+  padding-top: 20px;
+}
+
+header  .menu ul li{
+  display: inline-block;
+  float: left;
+  padding-left: 70px;
+  padding-top: 30px;
+}
+
+header  .menu ul li i{
+  font-size: 40px;
+  color:black;
+}
+
+header .menu ul li .fa-pen-square{
+  color:blue;
+}
+header  .menu .profile-image{
+  display: inline-block;
+  float: left;
+  padding-left: 55px;
+
+}
+
+.col-3{
+ padding: 0px;
+}
+#page-layout{
+  height: 850px;
+}
+
+#page-layout .side-bar{
+  width: 400px;
+}
+
+#page-layout .side-bar a{
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+#page-layout .post-content{
+  padding-top: 20px;
+  height: 800px;
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+  background-color: #f2f2f2;
+
+}
+
+#page-layout .post-content .title-container{
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-layout .post-content .title-container .title{
+  width: 1100px;
+}
+
+#page-layout .post-content .title-container .title h2{
+  padding-left: 6%;
+}
+#page-layout .post-content .title-container .title-container .title-links{
+  float: right;
+}
+#page-layout .post-content .title-links a{
+  text-align: right;
+  padding-left: 20px;
+}
+
+.create_button_mobile{
+  display: none;
+}
+
+
+/***Responsive****/
+
+@media(max-width:1000px){
+  .col-3{
+    display: none;
+  }
+  #page-layout .post-content .title-container .title h2 {
+	padding-left: 65px;
+}
+
+.create_button_mobile{
+  display: block;
+}
+
+
+.side-bar{
+  display: none;
+}
+}

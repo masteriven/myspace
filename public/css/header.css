@@ -1,0 +1,67 @@
+body{
+  background-color: white;
+  overflow-x: hidden;
+}
+
+header .menu {
+	height: 200px;
+	margin: 0 auto;
+  margin: 0px 200px
+	padding: 10px 10px;
+}
+
+header  .menu .logo{
+  display: inline-block;
+  float: left;
+  padding-top: 20px;
+}
+
+header  .menu ul li{
+  display: inline-block;
+  float: left;
+  padding-left: 90px;
+  padding-top: 30px;
+}
+
+header  .menu ul li i{
+  font-size: 40px;
+  color:black;
+}
+
+header  .menu .profile-image{
+  display: inline-block;
+  float: left;
+  padding-left: 55px;
+
+}
+
+/****Responsive***/
+
+@media (max-width: 1024px) {
+
+  header .menu {
+	height: 200px;
+	margin: 0px 0px;
+}
+  header .logo{
+    margin-top:10px;
+  }
+
+  .navbar-toggler{
+    margin-top: 30px;
+  }
+.navbar.navbar-expand-lg.navbar-light{
+  width: 180px;
+}
+
+.navbar-collapse.collapse.show {
+	background-color: gray;
+  position: relative;
+  z-index: 1;
+}
+header .menu ul li{
+  padding-left: 60px;
+  padding-bottom:20px;
+}
+
+}
